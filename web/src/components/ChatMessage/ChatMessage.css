@@ -1,0 +1,43 @@
+.chat-message.chatgpt {
+    background-color: #444654;
+}
+
+.chat-message-center {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 1em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.chat-message-center .avatar {
+    background-color: cornsilk;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+}
+
+.chat-message-center .avatar.chatgpt {
+    background-color: #0da37f;
+}
+
+.chat-message-center .avatar svg {
+    flex-grow: 0 0 auto;
+    width: 20px;
+    height: 20px;
+}
+
+.chat-message-center .message {
+    padding: 0 2em;
+    width: 100%;
+    text-align: left;
+}
+
+.chat-message-center .message p:last-child {
+    padding-bottom: 0;
+}
